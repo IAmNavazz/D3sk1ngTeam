@@ -10,7 +10,7 @@
             fields: [{
                 name: 'Crashing On Steam?',
                 value: `1. What version do you use?
-=> 5.2.2 doesnt work with steam so please download 6.0. Note that 6.0 is VIP exclusive.
+=> 5.2.2 doesnt work with steam so please download 6.0. Note that 6.0 is VIP exclusive. Premium users you can either upgrade to VIP or wait for update.
 
 2. Crash even with 6.0?
 => Try all points from Troubleshoot

@@ -3,7 +3,7 @@ exports.run = (bot, msg) => {
 
       const embed = new Discord.RichEmbed()
         .setColor(0xFF0000)
-        .setAuthor('IAmNavaz', bot.user.avatarURL)
+        .setAuthor(`${msg.author.username}`, bot.user.avatarURL)
         .setTitle('What is the difference between Premium & VIP', 'Here is a few things that are diffrent from VIP & Premium')
         .addField('Premium','The Premium version of the mennu has great stuff for trolling or greiving it also has safe **stealth** options it also has instant RP options')
         .addField('VIP', 'VIP version is the most popular choice for most users, it has safe moeny drop options for you or friends you also get early access to to new features before its released on premium, dont be suprised if some features dont work as its not been tested.')

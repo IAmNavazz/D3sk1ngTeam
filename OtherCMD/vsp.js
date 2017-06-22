@@ -3,7 +3,7 @@ exports.run = (bot, msg) => {
    
     const embed = new Discord.RichEmbed()
         .setColor(0x03F620)
-        .setAuthor('D3SK1NG TEAM', bot.user.avatarURL)
+        .setAuthor(`${msg.author.username}`, bot.user.avatarURL)
         .setTitle('What is the difference between Premium & VIP', 'Here is a few things that are diffrent from VIP & Premium')
         .addField('Premium','The Premium version of the menu has great stuff for trolling or griefing. It also has safe stealth and instant RP options.')
         .addField('VIP', 'The VIP version is the most popular choice for most users, it has safe money drop options for you or friends you also get early access to to new features before its released on premium, dont be suprised if some features dont work as its not been tested..')
